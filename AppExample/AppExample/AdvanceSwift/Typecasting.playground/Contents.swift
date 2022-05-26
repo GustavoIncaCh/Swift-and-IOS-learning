@@ -17,7 +17,7 @@ myClass.age = 23
 var myArray:[Any] = [myString,myInt,myClass]
 
 // use of any for any type of data
-// the we convert the value as the type we need
+// then we convert the value as the type we need
 // with the word (as!)
 // btw we use 'is' to ask for the type of data
 for value in myArray{

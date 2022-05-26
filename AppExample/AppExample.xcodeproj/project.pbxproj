@@ -45,6 +45,13 @@
 		C21F8510283EDB61003EBB41 /* Typecasting.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Typecasting.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C22CFEA1283EE2BF00F78DE6 /* AnidateTypes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AnidateTypes.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C2855A9A283D94140093B12A /* dictionary.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = dictionary.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		C2CF12A8283FB9990042834D /* Extensions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Extensions.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		C2CF12A9283FC0B10042834D /* protocols.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = protocols.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		C2CF12AA283FC6270042834D /* Generics.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Generics.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		C2CF12AB283FCF750042834D /* AdvanceOperations.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AdvanceOperations.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		C2CF12AC283FD45B0042834D /* Sets.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Sets.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		C2CF12AE283FDE9F0042834D /* CollectionAlgorithms.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CollectionAlgorithms.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		C2CF12AF283FE44F0042834D /* Maps.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Maps.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C2F97FF8283D5A9F00D642F4 /* AppExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2F97FFB283D5A9F00D642F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2F97FFD283D5A9F00D642F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -97,6 +104,10 @@
 				C21F850F283ED5BA003EBB41 /* ErrorController.playground */,
 				C21F8510283EDB61003EBB41 /* Typecasting.playground */,
 				C22CFEA1283EE2BF00F78DE6 /* AnidateTypes.playground */,
+				C2CF12A8283FB9990042834D /* Extensions.playground */,
+				C2CF12A9283FC0B10042834D /* protocols.playground */,
+				C2CF12AA283FC6270042834D /* Generics.playground */,
+				C2CF12AB283FCF750042834D /* AdvanceOperations.playground */,
 			);
 			path = AdvanceSwift;
 			sourceTree = "<group>";
@@ -116,6 +127,16 @@
 				C21F850D283EA9C5003EBB41 /* Structures.playground */,
 			);
 			path = BasicIntermediateSwift;
+			sourceTree = "<group>";
+		};
+		C2CF12AD283FDE5A0042834D /* AdvanceSwiftCollections */ = {
+			isa = PBXGroup;
+			children = (
+				C2CF12AC283FD45B0042834D /* Sets.playground */,
+				C2CF12AE283FDE9F0042834D /* CollectionAlgorithms.playground */,
+				C2CF12AF283FE44F0042834D /* Maps.playground */,
+			);
+			path = AdvanceSwiftCollections;
 			sourceTree = "<group>";
 		};
 		C2F97FEF283D5A9F00D642F4 = {
@@ -141,6 +162,7 @@
 		C2F97FFA283D5A9F00D642F4 /* AppExample */ = {
 			isa = PBXGroup;
 			children = (
+				C2CF12AD283FDE5A0042834D /* AdvanceSwiftCollections */,
 				C22CFEA0283EE24800F78DE6 /* BasicIntermediateSwift */,
 				C21F8511283EE092003EBB41 /* AdvanceSwift */,
 				C2F97FFB283D5A9F00D642F4 /* AppDelegate.swift */,
