@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2B9D6252850EBC700FEAD23 /* customTopTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B9D6242850EBC700FEAD23 /* customTopTabBar.swift */; };
+		C2E00AF8284FEA6500D15D47 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E00AF7284FEA6500D15D47 /* Enum.swift */; };
+		C2E00AFB284FECD300D15D47 /* customTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E00AFA284FECD300D15D47 /* customTabBar.swift */; };
+		C2E00AFD2850028900D15D47 /* cardPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E00AFC2850028900D15D47 /* cardPageView.swift */; };
+		C2E236C22853A9B700477E83 /* customMenuTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E236C12853A9B700477E83 /* customMenuTabBar.swift */; };
+		C2E603B1284E5FC500B0FFBA /* CloneBankApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E603B0284E5FC500B0FFBA /* CloneBankApp.swift */; };
+		C2E603B3284E5FC500B0FFBA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E603B2284E5FC500B0FFBA /* ContentView.swift */; };
+		C2E603B5284E5FC600B0FFBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2E603B4284E5FC600B0FFBA /* Assets.xcassets */; };
+		C2E603B8284E5FC600B0FFBA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2E603B7284E5FC600B0FFBA /* Preview Assets.xcassets */; };
+		C2E603C2284E5FC600B0FFBA /* CloneBankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E603C1284E5FC600B0FFBA /* CloneBankTests.swift */; };
+		C2E603CC284E5FC600B0FFBA /* CloneBankUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E603CB284E5FC600B0FFBA /* CloneBankUITests.swift */; };
+		C2E603CE284E5FC600B0FFBA /* CloneBankUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E603CD284E5FC600B0FFBA /* CloneBankUITestsLaunchTests.swift */; };
+		C2E603DB284E60A100B0FFBA /* transactionPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E603DA284E60A100B0FFBA /* transactionPageView.swift */; };
+		C2E603DD284E7BCD00B0FFBA /* listButtonClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E603DC284E7BCD00B0FFBA /* listButtonClass.swift */; };
+		C2E603E0284E7C5F00B0FFBA /* storeButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E603DF284E7C5F00B0FFBA /* storeButtonView.swift */; };
+		C2E974322854D259000AAFA1 /* graphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E974312854D259000AAFA1 /* graphView.swift */; };
+		C2EAF93D285266190081D682 /* staticsPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EAF93C285266190081D682 /* staticsPageView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2E603BE284E5FC600B0FFBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2E603A5284E5FC500B0FFBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2E603AC284E5FC500B0FFBA;
+			remoteInfo = CloneBank;
+		};
+		C2E603C8284E5FC600B0FFBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2E603A5284E5FC500B0FFBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2E603AC284E5FC500B0FFBA;
+			remoteInfo = CloneBank;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C2B9D6242850EBC700FEAD23 /* customTopTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customTopTabBar.swift; sourceTree = "<group>"; };
+		C2E00AF7284FEA6500D15D47 /* Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
+		C2E00AFA284FECD300D15D47 /* customTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customTabBar.swift; sourceTree = "<group>"; };
+		C2E00AFC2850028900D15D47 /* cardPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardPageView.swift; sourceTree = "<group>"; };
+		C2E236C12853A9B700477E83 /* customMenuTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customMenuTabBar.swift; sourceTree = "<group>"; };
+		C2E603AD284E5FC500B0FFBA /* CloneBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloneBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2E603B0284E5FC500B0FFBA /* CloneBankApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloneBankApp.swift; sourceTree = "<group>"; };
+		C2E603B2284E5FC500B0FFBA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C2E603B4284E5FC600B0FFBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2E603B7284E5FC600B0FFBA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C2E603BD284E5FC600B0FFBA /* CloneBankTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloneBankTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2E603C1284E5FC600B0FFBA /* CloneBankTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloneBankTests.swift; sourceTree = "<group>"; };
+		C2E603C7284E5FC600B0FFBA /* CloneBankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloneBankUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2E603CB284E5FC600B0FFBA /* CloneBankUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloneBankUITests.swift; sourceTree = "<group>"; };
+		C2E603CD284E5FC600B0FFBA /* CloneBankUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloneBankUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C2E603DA284E60A100B0FFBA /* transactionPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = transactionPageView.swift; sourceTree = "<group>"; };
+		C2E603DC284E7BCD00B0FFBA /* listButtonClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listButtonClass.swift; sourceTree = "<group>"; };
+		C2E603DF284E7C5F00B0FFBA /* storeButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = storeButtonView.swift; sourceTree = "<group>"; };
+		C2E974312854D259000AAFA1 /* graphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = graphView.swift; sourceTree = "<group>"; };
+		C2EAF93C285266190081D682 /* staticsPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = staticsPageView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2E603AA284E5FC500B0FFBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2E603BA284E5FC600B0FFBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2E603C4284E5FC600B0FFBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2E00AF9284FECAA00D15D47 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C2E00AFA284FECD300D15D47 /* customTabBar.swift */,
+				C2B9D6242850EBC700FEAD23 /* customTopTabBar.swift */,
+				C2E236C12853A9B700477E83 /* customMenuTabBar.swift */,
+				C2E974312854D259000AAFA1 /* graphView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C2E603A4284E5FC500B0FFBA = {
+			isa = PBXGroup;
+			children = (
+				C2E603AF284E5FC500B0FFBA /* CloneBank */,
+				C2E603C0284E5FC600B0FFBA /* CloneBankTests */,
+				C2E603CA284E5FC600B0FFBA /* CloneBankUITests */,
+				C2E603AE284E5FC500B0FFBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2E603AE284E5FC500B0FFBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2E603AD284E5FC500B0FFBA /* CloneBank.app */,
+				C2E603BD284E5FC600B0FFBA /* CloneBankTests.xctest */,
+				C2E603C7284E5FC600B0FFBA /* CloneBankUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2E603AF284E5FC500B0FFBA /* CloneBank */ = {
+			isa = PBXGroup;
+			children = (
+				C2E603DE284E7C4100B0FFBA /* Class */,
+				C2E00AF9284FECAA00D15D47 /* View */,
+				C2E603B0284E5FC500B0FFBA /* CloneBankApp.swift */,
+				C2E603DF284E7C5F00B0FFBA /* storeButtonView.swift */,
+				C2E603B2284E5FC500B0FFBA /* ContentView.swift */,
+				C2E00AFC2850028900D15D47 /* cardPageView.swift */,
+				C2EAF93C285266190081D682 /* staticsPageView.swift */,
+				C2E603DA284E60A100B0FFBA /* transactionPageView.swift */,
+				C2E603B4284E5FC600B0FFBA /* Assets.xcassets */,
+				C2E603B6284E5FC600B0FFBA /* Preview Content */,
+			);
+			path = CloneBank;
+			sourceTree = "<group>";
+		};
+		C2E603B6284E5FC600B0FFBA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C2E603B7284E5FC600B0FFBA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C2E603C0284E5FC600B0FFBA /* CloneBankTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2E603C1284E5FC600B0FFBA /* CloneBankTests.swift */,
+			);
+			path = CloneBankTests;
+			sourceTree = "<group>";
+		};
+		C2E603CA284E5FC600B0FFBA /* CloneBankUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C2E603CB284E5FC600B0FFBA /* CloneBankUITests.swift */,
+				C2E603CD284E5FC600B0FFBA /* CloneBankUITestsLaunchTests.swift */,
+			);
+			path = CloneBankUITests;
+			sourceTree = "<group>";
+		};
+		C2E603DE284E7C4100B0FFBA /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				C2E603DC284E7BCD00B0FFBA /* listButtonClass.swift */,
+				C2E00AF7284FEA6500D15D47 /* Enum.swift */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2E603AC284E5FC500B0FFBA /* CloneBank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2E603D1284E5FC600B0FFBA /* Build configuration list for PBXNativeTarget "CloneBank" */;
+			buildPhases = (
+				C2E603A9284E5FC500B0FFBA /* Sources */,
+				C2E603AA284E5FC500B0FFBA /* Frameworks */,
+				C2E603AB284E5FC500B0FFBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CloneBank;
+			packageProductDependencies = (
+			);
+			productName = CloneBank;
+			productReference = C2E603AD284E5FC500B0FFBA /* CloneBank.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2E603BC284E5FC600B0FFBA /* CloneBankTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2E603D4284E5FC600B0FFBA /* Build configuration list for PBXNativeTarget "CloneBankTests" */;
+			buildPhases = (
+				C2E603B9284E5FC600B0FFBA /* Sources */,
+				C2E603BA284E5FC600B0FFBA /* Frameworks */,
+				C2E603BB284E5FC600B0FFBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2E603BF284E5FC600B0FFBA /* PBXTargetDependency */,
+			);
+			name = CloneBankTests;
+			productName = CloneBankTests;
+			productReference = C2E603BD284E5FC600B0FFBA /* CloneBankTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C2E603C6284E5FC600B0FFBA /* CloneBankUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2E603D7284E5FC600B0FFBA /* Build configuration list for PBXNativeTarget "CloneBankUITests" */;
+			buildPhases = (
+				C2E603C3284E5FC600B0FFBA /* Sources */,
+				C2E603C4284E5FC600B0FFBA /* Frameworks */,
+				C2E603C5284E5FC600B0FFBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2E603C9284E5FC600B0FFBA /* PBXTargetDependency */,
+			);
+			name = CloneBankUITests;
+			productName = CloneBankUITests;
+			productReference = C2E603C7284E5FC600B0FFBA /* CloneBankUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2E603A5284E5FC500B0FFBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					C2E603AC284E5FC500B0FFBA = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					C2E603BC284E5FC600B0FFBA = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = C2E603AC284E5FC500B0FFBA;
+					};
+					C2E603C6284E5FC600B0FFBA = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = C2E603AC284E5FC500B0FFBA;
+					};
+				};
+			};
+			buildConfigurationList = C2E603A8284E5FC500B0FFBA /* Build configuration list for PBXProject "CloneBank" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2E603A4284E5FC500B0FFBA;
+			packageReferences = (
+				C2B9D6212850DD6E00FEAD23 /* XCRemoteSwiftPackageReference "ImageSliderSwiftUI" */,
+				C2E236C32853C31400477E83 /* XCRemoteSwiftPackageReference "SwiftUICharts-Demo" */,
+				C2E236C42853ECDA00477E83 /* XCRemoteSwiftPackageReference "CheesyChart" */,
+			);
+			productRefGroup = C2E603AE284E5FC500B0FFBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2E603AC284E5FC500B0FFBA /* CloneBank */,
+				C2E603BC284E5FC600B0FFBA /* CloneBankTests */,
+				C2E603C6284E5FC600B0FFBA /* CloneBankUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2E603AB284E5FC500B0FFBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E603B8284E5FC600B0FFBA /* Preview Assets.xcassets in Resources */,
+				C2E603B5284E5FC600B0FFBA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2E603BB284E5FC600B0FFBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2E603C5284E5FC600B0FFBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2E603A9284E5FC500B0FFBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E603B3284E5FC500B0FFBA /* ContentView.swift in Sources */,
+				C2E236C22853A9B700477E83 /* customMenuTabBar.swift in Sources */,
+				C2E603B1284E5FC500B0FFBA /* CloneBankApp.swift in Sources */,
+				C2E974322854D259000AAFA1 /* graphView.swift in Sources */,
+				C2E00AF8284FEA6500D15D47 /* Enum.swift in Sources */,
+				C2EAF93D285266190081D682 /* staticsPageView.swift in Sources */,
+				C2E603E0284E7C5F00B0FFBA /* storeButtonView.swift in Sources */,
+				C2E00AFB284FECD300D15D47 /* customTabBar.swift in Sources */,
+				C2E603DD284E7BCD00B0FFBA /* listButtonClass.swift in Sources */,
+				C2E603DB284E60A100B0FFBA /* transactionPageView.swift in Sources */,
+				C2B9D6252850EBC700FEAD23 /* customTopTabBar.swift in Sources */,
+				C2E00AFD2850028900D15D47 /* cardPageView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2E603B9284E5FC600B0FFBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E603C2284E5FC600B0FFBA /* CloneBankTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2E603C3284E5FC600B0FFBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E603CE284E5FC600B0FFBA /* CloneBankUITestsLaunchTests.swift in Sources */,
+				C2E603CC284E5FC600B0FFBA /* CloneBankUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2E603BF284E5FC600B0FFBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2E603AC284E5FC500B0FFBA /* CloneBank */;
+			targetProxy = C2E603BE284E5FC600B0FFBA /* PBXContainerItemProxy */;
+		};
+		C2E603C9284E5FC600B0FFBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2E603AC284E5FC500B0FFBA /* CloneBank */;
+			targetProxy = C2E603C8284E5FC600B0FFBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C2E603CF284E5FC600B0FFBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C2E603D0284E5FC600B0FFBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2E603D2284E5FC600B0FFBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CloneBank/Preview Content\"";
+				DEVELOPMENT_TEAM = HX9T3R6B55;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GustavoInca.CloneBank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2E603D3284E5FC600B0FFBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CloneBank/Preview Content\"";
+				DEVELOPMENT_TEAM = HX9T3R6B55;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GustavoInca.CloneBank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C2E603D5284E5FC600B0FFBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HX9T3R6B55;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GustavoInca.CloneBankTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloneBank.app/CloneBank";
+			};
+			name = Debug;
+		};
+		C2E603D6284E5FC600B0FFBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HX9T3R6B55;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GustavoInca.CloneBankTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloneBank.app/CloneBank";
+			};
+			name = Release;
+		};
+		C2E603D8284E5FC600B0FFBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HX9T3R6B55;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GustavoInca.CloneBankUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CloneBank;
+			};
+			name = Debug;
+		};
+		C2E603D9284E5FC600B0FFBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HX9T3R6B55;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GustavoInca.CloneBankUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CloneBank;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2E603A8284E5FC500B0FFBA /* Build configuration list for PBXProject "CloneBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2E603CF284E5FC600B0FFBA /* Debug */,
+				C2E603D0284E5FC600B0FFBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2E603D1284E5FC600B0FFBA /* Build configuration list for PBXNativeTarget "CloneBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2E603D2284E5FC600B0FFBA /* Debug */,
+				C2E603D3284E5FC600B0FFBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2E603D4284E5FC600B0FFBA /* Build configuration list for PBXNativeTarget "CloneBankTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2E603D5284E5FC600B0FFBA /* Debug */,
+				C2E603D6284E5FC600B0FFBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2E603D7284E5FC600B0FFBA /* Build configuration list for PBXNativeTarget "CloneBankUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2E603D8284E5FC600B0FFBA /* Debug */,
+				C2E603D9284E5FC600B0FFBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C2B9D6212850DD6E00FEAD23 /* XCRemoteSwiftPackageReference "ImageSliderSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/alibabarhassan/ImageSliderSwiftUI.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		C2E236C32853C31400477E83 /* XCRemoteSwiftPackageReference "SwiftUICharts-Demo" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/willdale/SwiftUICharts-Demo.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		C2E236C42853ECDA00477E83 /* XCRemoteSwiftPackageReference "CheesyChart" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/adri567/CheesyChart.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+	};
+	rootObject = C2E603A5284E5FC500B0FFBA /* Project object */;
+}
